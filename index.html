@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<>, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cash Register</title>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+    crossorigin="anonymous"
+  />
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
@@ -15,12 +21,12 @@
             <p>Exact the bill ammount and cash Given by the customer and know minimum number of notes to return </p>
 
             <label for="bill-amount">Bill Amount</label>
-            <input id="bill-amount" type="text"></input>
+            <input id="bill-amount" type="text" placeholder="Enter bill amount"></input>
 
             <label for="cash-given">Cash-Given</label>
-            <input id="cash-given" type="text"></input>
+            <input id="cash-given" type="text" placeholder="Enter Cash Given"></input>
 
-            <button id="#check-button">Check
+            <button id="check-button">Check
 
 
             </button>
@@ -30,20 +36,6 @@
                 <caption>
                     Return Change
                 </caption>
-
-                <tr>
-                    <th>NO. of Notes</th>
-                    <td class=".no-of-notes"></td>
-                    <td class=".no-of-notes"></td>
-                    <td class=".no-of-notes"></td>
-                    <td class=".no-of-notes"></td>
-                    <td class=".no-of-notes"></td>
-                    <td class=".no-of-notes"></td>
-                    <td class=".no-of-notes"></td>
-                    
-
-                </tr>
-
                 <tr>
                     <th>Notes</th>
                     <td>2000</td>
@@ -54,8 +46,30 @@
                     <td>5</td>
                     <td>1</td>
                 </tr>
+                <tr>
+                    <th>NO. of Notes</th>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                </tr>
             </table>
     </div>
+  
+    <footer class="main-footer">
+      <div class="footer-content">
+        <p class="footer-text">Made with ❤ by Abhay <br /></p>
+
+        <div class="social">
+          <a href="https://www.linkedin.com/in/abhaymishr/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="https://github.com/abhaymishr" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+          
+        </div>
+      </div>
+    </footer>
     <script src="./index.js" ></script>
 </body>
 </html>
